@@ -1,0 +1,26 @@
+.Footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    background-color:#9333ea;
+    &__nav{
+        margin: 0;
+        &__item{
+            margin: 20px;
+            a{
+                color: rgb(255, 255, 255);
+                img{
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+    &__map{
+        display: flex;
+        &__item{
+            border-radius: 10px;
+        }
+    }
+}

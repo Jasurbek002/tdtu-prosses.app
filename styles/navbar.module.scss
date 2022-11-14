@@ -1,0 +1,59 @@
+.Navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+    background-color:#5039e4;
+    position: sticky;
+    top:0px;
+    z-index: 51;
+    &__nav{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__item{
+            list-style: none;
+            position: relative;
+            height: auto;
+            &:hover .Navbar__nav__item__menu{
+                display: flex;
+            }
+            &__link{
+                color: rgb(255, 255, 255);
+                font-size: 20px;
+                font-weight: 400;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                @apply animate-pulse 
+
+            }
+            &__menu{
+                  position: absolute;
+                  background-color: white;
+                  padding: 5px;
+                  border-radius: 10px;
+                  display:none;
+                  flex-direction: column;
+                  width: 180px;
+                  border: 2px solid rgb(228, 222, 222);
+                  &:hover{
+                    display: flex;
+                  }
+                  p{
+                    color: rgb(95, 103, 114);
+                    font-size: 16px;
+                  }
+                  &__links{
+                    margin-top: 10px;
+                    &:hover{
+                        color: rgb(5, 113, 255);
+                        text-decoration: underline;
+                    }
+                  }
+            }
+        }
+    }
+}
+
+

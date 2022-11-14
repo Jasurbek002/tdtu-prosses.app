@@ -1,0 +1,41 @@
+.Topbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    &__logo{
+        width: 100px;
+        height: 100px;
+           &__img{
+           width: 100px;
+           height: 100px;
+           @apply animate-bounce translate-x-0
+           }
+    }
+    &__title{
+        max-width: 800px ;
+        width: 100%;
+        color: blueviolet;
+        font-size: 20px;
+        font-weight: 900;
+        font-family:'SourceSansPro';
+    }
+    &__lang{
+        width: 50px;
+        height: 40px;
+        color: blue;
+        font-size: 25px;
+        border: none;
+        outline: none;
+    }
+}
+
+
+.continer{
+    max-width: 1640px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
