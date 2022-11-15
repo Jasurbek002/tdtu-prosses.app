@@ -1,6 +1,8 @@
 import Image from "next/image";
 import settings from '../../public/assets/images/mexanika.png'
 
+import styles from './../../styles/fuculy.module.scss'
+
 const Fuculy = () => {
 
   const fuculty = [
@@ -15,7 +17,7 @@ const Fuculy = () => {
   ]
 
     return (
-        <div className={'w-full flex flex-wrap items-center justify-evenly mt-10 '}>
+        <div className={styles.Fuculy}>
            <div className='flex w-full items-center justify-evenly my-20'>
                 <span className="w-96 h-1 bg-blue"></span>
                 <h1 className='text-grey text-2xl'>Fakultetlar</h1>
@@ -24,9 +26,14 @@ const Fuculy = () => {
          {
              fuculty.map((el) =>{
               return (
-                <div key={el.id} className={'flex items-center justify-between items-center justify-around shadow-md w-80 border-2 border-oqroq  h-20 m-3  bg-kokroq rounded-xl'}>
+                <div
+                 key={el.id}
+                 className={
+                  'flex items-center justify-between items-center justify-around shadow-4xl w-96 border-2 border-oqroq  h-24 m-3  bg-white relative'
+                  }>
                   <Image className={'w-7 h-7'} src={settings} alt='icon' />
                    <p className={'text-grey'}>{el.name}</p>
+                   <span className='absolute bottom-0 w-0  bg-blue h-1'></span>
                 </div>
               )
              })

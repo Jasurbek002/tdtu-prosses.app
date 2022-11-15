@@ -124,3 +124,31 @@ export let items5 = [
     },
 
 ]
+
+export let items6 = [
+    {
+        id:1,
+        name:"Technical science and innovation",
+        path:'/technical',
+    },
+    {
+        id:2,
+        name:"Ta'lim tizimida ijtimoiy-gumanitar fanlar",
+        path:'/talim',
+    },
+    {
+        id:3,
+        name:"Energiya va resurs tejash muammolari",
+        path:'/energiya',
+    },
+    {
+        id:4,
+        name:"Chemical technology control and management",
+        path:'/chemical',
+    },
+    {
+        id:5,
+        name:"Konchilik mashinalari va texnologiyalari",
+        path:'/konchilik',
+    },
+]

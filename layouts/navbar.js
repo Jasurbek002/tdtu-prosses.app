@@ -1,21 +1,9 @@
 import Link from 'next/link';
-import { useState } from 'react';
 import styles from '../styles/navbar.module.scss'
 
-import {items1,items2,items3,items4,items5} from '../components/data/items'
+import {items1,items2,items3,items4,items5,items6} from '../components/data/items'
 
 const Navbar = () => {
-
-    const [modal,setModal] = useState(false)
-
-    const hendler = (e,v) =>{
-        // console.log(v.target.value)
-        // if(e){
-        //     setModal(v.target.value)
-        // }else{
-        //     setModal(false)
-        // }
-    }
 
     return (
         <div className={styles.Navbar}>
@@ -24,8 +12,8 @@ const Navbar = () => {
                     <Link className={styles.Navbar__nav__item__link} href='/' >Home</Link>
     
                 </li>
-                <li value={1} onMouseEnter={(e) => hendler(e.isTrusted,e)} className={styles.Navbar__nav__item}>
-                    <Link className={styles.Navbar__nav__item__link} href='/daktarantura' >Doktarantura</Link>
+                <li className={styles.Navbar__nav__item}>
+                    <Link className={styles.Navbar__nav__item__link} href='/doktarant' >Doktarantura</Link>
                     <div className={styles.Navbar__nav__item__menu}>
                      <p>{items1[0]}</p>
                     {
@@ -81,13 +69,19 @@ const Navbar = () => {
                 </li>
                 <li className={styles.Navbar__nav__item}>
                     <Link className={styles.Navbar__nav__item__link} href='/ilmiy' >Ilmiy jurnallar</Link>
+                    <div className={styles.Navbar__nav__item__menu}>
+                     {/* <p>{items6[0]}</p> */}
+                    {
+                        items6?.map((el)=>{
+                            return <Link className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} >{el.name}</Link>
+                        })
+                    }
+                    </div>
                 </li>
                 <li className={styles.Navbar__nav__item}>
                     <Link className={styles.Navbar__nav__item__link} href='/ilmiy' >INNO Texnopark</Link>
                 </li>
                </ul>    
-
-             
 
         </div>
     );

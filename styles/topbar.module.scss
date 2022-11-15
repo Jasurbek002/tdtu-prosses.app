@@ -10,7 +10,7 @@
            &__img{
            width: 100px;
            height: 100px;
-           @apply animate-bounce translate-x-0
+           @apply hover:animate-bounce
            }
     }
     &__title{
