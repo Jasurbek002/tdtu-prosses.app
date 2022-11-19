@@ -3,22 +3,22 @@ export let items1 = [
     {
         id:1,
         name:'Mustaqil izlanuvchilar',
-        path:'/mustaqil'
+        path:'doctarant/mustaqil'
     },
     {
         id:2,
         name:'Tayanch doktorant',
-        path:'/tayanch'
+        path:'doctarant/tayanch'
     },
     {
         id:3,
         name:'Stajor tadqiqotchi',
-        path:'/stajor'
+        path:'doctarant/stajor'
     },
     {
         id:3,
         name:'DSc doktorant',
-        path:'/ds'
+        path:'doctarant/ds'
     }
 ]
 

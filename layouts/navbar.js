@@ -13,7 +13,7 @@ const Navbar = () => {
     
                 </li>
                 <li className={styles.Navbar__nav__item}>
-                    <Link className={styles.Navbar__nav__item__link} href='/doktarant' >Doktarantura</Link>
+                    <Link className={styles.Navbar__nav__item__link} href='/doctarant/doktarant' >Doktarantura</Link>
                     <div className={styles.Navbar__nav__item__menu}>
                      <p>{items1[0]}</p>
                     {

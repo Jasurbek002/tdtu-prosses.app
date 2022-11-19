@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Doktarant = () => {
+const Mustaqil = () => {
     return (
         <div>
-            doktarant
+            mustaqil
         </div>
     );
 }
 
-export default Doktarant;
+export default Mustaqil;

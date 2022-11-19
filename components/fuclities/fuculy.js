@@ -1,3 +1,4 @@
+import { Link } from "@mui/material";
 import Image from "next/image";
 import settings from '../../public/assets/images/mexanika.png'
 
@@ -24,17 +25,18 @@ const Fuculy = () => {
                 <span className="w-96 h-1 bg-blue"></span>
             </div>
          {
-             fuculty.map((el) =>{
+             fuculty.map((el,index) =>{
               return (
-                <div
-                 key={el.id}
+                <Link href="/"
+                id="Link"
+                 key={index}
                  className={
                   'flex items-center justify-between items-center justify-around shadow-4xl w-96 border-2 border-oqroq  h-24 m-3  bg-white relative'
                   }>
                   <Image className={'w-7 h-7'} src={settings} alt='icon' />
                    <p className={'text-grey'}>{el.name}</p>
                    <span className='absolute bottom-0 w-0  bg-blue h-1'></span>
-                </div>
+                </Link>
               )
              })
          }
