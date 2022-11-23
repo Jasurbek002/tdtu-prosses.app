@@ -1,3 +1,4 @@
+import React,{useState} from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import Carusel from '../components/carusel/carusel'
@@ -6,10 +7,14 @@ import Loading from '../components/loading/loading'
 import News from '../components/news/news'
 import Partner from '../components/partners/partner'
 import Score from '../components/score/score'
-import Video from '../components/Video/video'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  // const [loading,setLoading] = useState(false)
+  // window.addEventListener('load',() =>{
+  //   setLoading(true)
+  // })
+  
   return (
     <div>
     <Head>
@@ -21,12 +26,11 @@ export default function Home() {
         <div className={'flex w-full justify-center'}>
                <Carusel  />
         </div>
-        {/* <Loading /> */}
+               {/* { loading ? <Loading /> : ''} */}
         <News />
         <Fuculy />
-        {/* <Video /> */}
-        <Partner />
         <Score fakul={300} students ={25000} teachers={990} forwork={50}  />
+        <Partner />
       </main>
     </div>
   )

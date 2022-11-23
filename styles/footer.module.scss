@@ -1,10 +1,13 @@
 .Footer{
     width: 100%;
     display: flex;
+    bottom: 0;
     align-items: center;
     justify-content: space-evenly;
     padding: 20px 0;
-    background-color:#9333ea;
+    margin-bottom: 0px;
+    background: rgb(48,78,241);
+    background: linear-gradient(90deg, rgba(48,78,241,1) 0%, rgba(238,36,169,1) 100%);
     &__nav{
         margin: 0;
         &__item{

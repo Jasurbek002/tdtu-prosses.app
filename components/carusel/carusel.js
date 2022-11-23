@@ -34,7 +34,7 @@ function Carusel() {
          </div>
  <Swiper
      
-      spaceBetween={10}
+      spaceBetween={1}
       // allowSlideNext={50}
       // slidesPerView={1}
       modules={[Navigation,Thumbs]}

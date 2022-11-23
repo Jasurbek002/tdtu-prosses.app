@@ -18,13 +18,13 @@ const Navbar = () => {
                      <p>{items1[0]}</p>
                     {
                         items1?.map((el)=>{
-                            return <Link className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} >{el.name}</Link>
+                            return <Link className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} > {el.name}</Link>
                         })
                     }
                     </div>
                 </li>
                 <li className={styles.Navbar__nav__item}>
-                    <Link className={styles.Navbar__nav__item__link} href='/ilmiyt' >Ilmiy-tadqiqot</Link>
+                    <Link className={styles.Navbar__nav__item__link} href='/tadqiqot/tadqiqot' >Ilmiy-tadqiqot</Link>
                     <div className={styles.Navbar__nav__item__menu}>
                      <p>{items2[0]}</p>
                     {

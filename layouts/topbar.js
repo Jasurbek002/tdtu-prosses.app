@@ -23,7 +23,6 @@ const Topbar = () => {
                       src={searchicon}
                        alt='search icon'/>
                 </buttom>
-
                 <select defaultValue='uz' name='lang' className={styles.Topbar__lang}>
                     <option value='en'>en</option>
                     <option value='ru'>ru</option>

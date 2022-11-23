@@ -29,17 +29,17 @@ export let items2 = [
     {
         id:1,
         name:'Ilmiy texnik kengash',
-        path:'/ilmiytexnik'
+        path:'/tadqiqot/texnik'
     },
     {
         id:2,
         name:'Ilmiy loyixalar',
-        path:'/ilmiyloyxalar'
+        path:'/tadqiqot/loyha'
     },
     {
         id:3,
         name:'Ilmiy labaratorya',
-        path:'/ilmiylab',
+        path:'/tadqiqot/labaratorya',
         page:{
           id:1,
           name:'OTM lar aro labaratoryalar'
@@ -48,12 +48,7 @@ export let items2 = [
     {
         id:4,
         name:'Intelektual mulk obektlari',
-        path:'/intelektual'
-    },
-    {
-        id:5,
-        name:'BM-1030',
-        path:'/bm'
+        path:'/tadqiqot/mulk'
     },
 ]
 
