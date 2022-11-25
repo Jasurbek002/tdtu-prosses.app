@@ -34,7 +34,7 @@ export let items2 = [
     {
         id:2,
         name:'Ilmiy loyixalar',
-        path:'/tadqiqot/loyha'
+        path:'/tadqiqot/loyha/loyha'
     },
     {
         id:3,
