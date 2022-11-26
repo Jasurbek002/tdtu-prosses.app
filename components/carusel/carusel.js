@@ -1,4 +1,4 @@
-import { useState } from 'react';
+
 import styles from '../../styles/carusel.module.scss'
 import { Navigation, Thumbs } from 'swiper';
 import { Swiper, SwiperSlide} from 'swiper/react';
@@ -10,28 +10,17 @@ import 'swiper/css/thumbs'
 import image from '../../public/assets/images/fon.jpg'
 import Image from 'next/image';
 
-import next from '../../public/assets/svg/prev.svg'
-import prev from '../../public/assets/svg/prev.svg'
+
 
 
 
 function Carusel() {
-  const [index,setIndex] = useState()
+
 
     return(
         <div className={styles.Carusel}>
 
-         <div className={styles.Carusel__btns}>
-
-          <div onClick={() => setIndex(x => x-1)} className={styles.Carusel__btns__btn1}>
-           <Image src={prev} alt='prev'/>
-          </div>
-
-          <div onClick={() => ""} className={styles.Carusel__btns__btn2} >
-          <Image src={next} alt='next'/>
-          </div>
-
-         </div>
+        
  <Swiper
      
       spaceBetween={1}

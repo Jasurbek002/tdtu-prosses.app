@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useContext, useEffect, useState} from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import Carusel from '../components/carusel/carusel'
@@ -8,13 +8,26 @@ import News from '../components/news/news'
 import Partner from '../components/partners/partner'
 import Score from '../components/score/score'
 import styles from '../styles/Home.module.css'
+import HeroWidget from '../components/widjed/widjed'
+
+import { context } from '../components/context/context'
 
 export default function Home() {
-  // const [loading,setLoading] = useState(false)
-  // window.addEventListener('load',() =>{
-  //   setLoading(true)
-  // })
+
+  const {loading,setLoading} = useContext(context)
+
+  useEffect(()=>{
+    window.addEventListener('load',() =>{
+      setLoading(true)
+    })
+  },[])
   
+  
+
+  setTimeout(() =>{
+    setLoading(false)
+  },5000)
+
   return (
     <div>
     <Head>
@@ -23,6 +36,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <Loading state={loading}/>
         <div className={'flex w-full justify-center'}>
                <Carusel  />
         </div>
@@ -31,6 +45,7 @@ export default function Home() {
         <Fuculy />
         <Score fakul={300} students ={25000} teachers={990} forwork={50}  />
         <Partner />
+        <HeroWidget />
       </main>
     </div>
   )

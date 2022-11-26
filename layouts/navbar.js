@@ -18,7 +18,7 @@ const Navbar = () => {
                      <p>{items1[0]}</p>
                     {
                         items1?.map((el)=>{
-                            return <Link className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} > {el.name}</Link>
+                            return <Link  className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} > {el.name}</Link>
                         })
                     }
                     </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
                      <p>{items2[0]}</p>
                     {
                         items2?.map((el)=>{
-                            return <Link className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} >{el.name}</Link>
+                            return <Link key={el.id} className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} >{el.name}</Link>
                         })
                     }
                     </div>
@@ -40,7 +40,7 @@ const Navbar = () => {
                      <p>{items3[0]}</p>
                     {
                         items3?.map((el)=>{
-                            return <Link className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} >{el.name}</Link>
+                            return <Link key={el.id} className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} >{el.name}</Link>
                         })
                     }
                     </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
                      <p>{items4[0]}</p>
                     {
                         items4?.map((el)=>{
-                            return <Link className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} >{el.name}</Link>
+                            return <Link key={el.id} className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} >{el.name}</Link>
                         })
                     }
                     </div>
@@ -62,7 +62,7 @@ const Navbar = () => {
                      <p>{items5[0]}</p>
                     {
                         items5?.map((el)=>{
-                            return <Link className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} >{el.name}</Link>
+                            return <Link key={el.id} className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} >{el.name}</Link>
                         })
                     }
                     </div>
@@ -73,7 +73,7 @@ const Navbar = () => {
                      {/* <p>{items6[0]}</p> */}
                     {
                         items6?.map((el)=>{
-                            return <Link className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} >{el.name}</Link>
+                            return <Link key={el.id} className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} >{el.name}</Link>
                         })
                     }
                     </div>
