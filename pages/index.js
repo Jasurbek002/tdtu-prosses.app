@@ -40,7 +40,6 @@ export default function Home() {
         <div className={'flex w-full justify-center'}>
                <Carusel  />
         </div>
-               {/* { loading ? <Loading /> : ''} */}
         <News />
         <Fuculy />
         <Score fakul={300} students ={25000} teachers={990} forwork={50}  />

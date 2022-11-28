@@ -35,12 +35,12 @@ const Navbar = () => {
                     </div>
                 </li>
                 <li className={styles.Navbar__nav__item}>
-                    <Link className={styles.Navbar__nav__item__link} href='/grand' > Reyting </Link>
+                    <Link className={styles.Navbar__nav__item__link} href='/reyting/reyting' > Reyting </Link>
                     <div className={styles.Navbar__nav__item__menu}>
                      <p>{items3[0]}</p>
                     {
                         items3?.map((el)=>{
-                            return <Link key={el.id} className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} >{el.name}</Link>
+                            return <Link key={el.id} className={styles.Navbar__nav__item__menu__links}   href={`${el.path}`} >{el.name}</Link>
                         })
                     }
                     </div>
