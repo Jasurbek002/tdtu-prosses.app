@@ -22,7 +22,7 @@ const News = () => {
          <p className=' mx-2'>bu universitetimizda rektoz bilan uchrashuv bo'lib 
              o'tdi unda universitetimiz talabalari faol qatnshdi
          </p>
-         <Button variant="outlined" className='bg-white ml-auto mr-2 my-2' >more</Button>
+         <Button variant="outlined" className='bg-white ml-auto' >more</Button>
  </div>
  <div style={{backgroundColor:'lightskyblue'}} className=' w-72 flex flex-col items-center shadow-4xl  rounded-md'>
      <Image className='w-full h-56 rounded-md' src={img} alt='card img' />
@@ -30,7 +30,7 @@ const News = () => {
          <p className=' mx-2'>bu universitetimizda rektoz bilan uchrashuv bo'lib 
              o'tdi unda universitetimiz talabalari faol qatnshdi
          </p>
-         <Button variant="outlined" className='bg-white ml-auto mr-2 my-2' >more</Button>
+         <Button variant="outlined" className='bg-white ml-auto ' >more</Button>
  </div>
  <div style={{backgroundColor:'lightskyblue'}} className=' w-72 flex flex-col items-center shadow-4xl  rounded-md'>
      <Image className='w-full h-56 rounded-md' src={img} alt='card img' />
@@ -38,7 +38,7 @@ const News = () => {
          <p className=' mx-2'>bu universitetimizda rektoz bilan uchrashuv bo'lib 
              o'tdi unda universitetimiz talabalari faol qatnshdi
          </p>
-         <Button variant="outlined" className='bg-white ml-auto mr-2 my-2' >more</Button>
+         <Button variant="outlined" className='bg-white ml-auto ' >more</Button>
  </div>
  <div style={{backgroundColor:'lightskyblue'}} className=' w-72 flex flex-col items-center shadow-4xl  rounded-md'>
      <Image className='w-full h-56 rounded-md' src={img} alt='card img' />
@@ -46,7 +46,7 @@ const News = () => {
          <p className=' mx-2'>bu universitetimizda rektoz bilan uchrashuv bo'lib 
              o'tdi unda universitetimiz talabalari faol qatnshdi
          </p>
-         <Button variant="outlined" className='bg-white ml-auto mr-2 my-2' >more</Button>
+         <Button variant="outlined" className='bg-white ml-auto ' >more</Button>
  </div>
 
 </div>
