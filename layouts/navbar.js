@@ -29,7 +29,7 @@ const Navbar = () => {
                      <p>{items2[0]}</p>
                     {
                         items2?.map((el)=>{
-                            return <Link key={el.id} className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} >{el.name}</Link>
+                            return <Link key={el.id} className={styles.Navbar__nav__item__menu__links} href={`${el.path}`} >{el.name}</Link>
                         })
                     }
                     </div>
@@ -46,40 +46,40 @@ const Navbar = () => {
                     </div>
                 </li>
                 <li className={styles.Navbar__nav__item}>
-                    <Link className={styles.Navbar__nav__item__link} href='/ilmiy' >Iqtidorli-talabalar</Link>
+                    <Link className={styles.Navbar__nav__item__link} href='/talaba/talaba' >Iqtidorli-talabalar</Link>
                     <div className={styles.Navbar__nav__item__menu}>
                      <p>{items4[0]}</p>
                     {
                         items4?.map((el)=>{
-                            return <Link key={el.id} className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} >{el.name}</Link>
+                            return <Link key={el.id} className={styles.Navbar__nav__item__menu__links}  href={`${el.path}`} >{el.name}</Link>
                         })
                     }
                     </div>
                 </li>
                 <li className={styles.Navbar__nav__item}>
-                    <Link className={styles.Navbar__nav__item__link} href='/ilmiy' >Tijoratlashtirish</Link>
+                    <Link className={styles.Navbar__nav__item__link} href='/tijorat/tijorat' >Tijoratlashtirish</Link>
                     <div className={styles.Navbar__nav__item__menu}>
                      <p>{items5[0]}</p>
                     {
                         items5?.map((el)=>{
-                            return <Link key={el.id} className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} >{el.name}</Link>
+                            return <Link key={el.id} className={styles.Navbar__nav__item__menu__links} href={`${el.path}`} >{el.name}</Link>
                         })
                     }
                     </div>
                 </li>
                 <li className={styles.Navbar__nav__item}>
-                    <Link className={styles.Navbar__nav__item__link} href='/ilmiy' >Ilmiy jurnallar</Link>
+                    <Link className={styles.Navbar__nav__item__link} href='/jurnal/jurnal' >Ilmiy jurnallar</Link>
                     <div className={styles.Navbar__nav__item__menu}>
                      {/* <p>{items6[0]}</p> */}
                     {
                         items6?.map((el)=>{
-                            return <Link key={el.id} className={styles.Navbar__nav__item__menu__links}  key={el.id} href={`${el.path}`} >{el.name}</Link>
+                            return <Link key={el.id} className={styles.Navbar__nav__item__menu__links}   href={`${el.path}`} >{el.name}</Link>
                         })
                     }
                     </div>
                 </li>
                 <li className={styles.Navbar__nav__item}>
-                    <Link className={styles.Navbar__nav__item__link} href='/ilmiy' >INNO Texnopark</Link>
+                    <Link className={styles.Navbar__nav__item__link} href='/' >INNO Texnopark</Link>
                 </li>
                </ul>    
 
