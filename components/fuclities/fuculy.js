@@ -31,7 +31,7 @@ const Fuculy = () => {
                 id="Link"
                  key={index}
                  className={
-                  'flex items-center justify-between items-center justify-around shadow-4xl w-96 border-2 border-oqroq  h-24 m-3  bg-white relative'
+                  'flex items-center justify-between items-center justify-around shadow-4xl w-96 border-2 border-oqroq  h-24 bg-white relative'
                   }>
                   <Image className={'w-7 h-7'} src={settings} alt='icon' />
                    <p className={'text-grey'}>{el.name}</p>
