@@ -38,7 +38,7 @@ export default function Home() {
       <main>
         <Loading state={loading}/>
         <div className={'flex w-full justify-center'}>
-               <Carusel  />
+        <Carusel  />
         </div>
         <News />
         <Fuculy />
