@@ -1,10 +1,13 @@
 .Link{
     @apply w-36 h-40;
     @apply flex flex-col items-center justify-center;
-    @apply text-center p-2 text-white rounded-md;
-    @apply shadow-4xl mt-4 hover:scale-105;
-    background: rgb(229,108,231);
-    background: radial-gradient(circle, rgb(227, 96, 207) 4%, rgba(42,221,134,0.846673703661152) 68%);
+    @apply text-center p-2  rounded-md;
+    @apply shadow-4xl mt-4 hover:scale-105 bg-white ;
+    &:hover{
+        scale: 1.1;
+        transition: 1s;
+        border: 2px solid rgb(151, 216, 228);
+    }
     &__img{
         @apply w-9 h-9 mb-4 hover:scale-105;
     }

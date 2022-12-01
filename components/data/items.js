@@ -57,17 +57,17 @@ export let items3 = [
     {
         id:1,
         name:'QS Ranking',
-        path:'/qs'
+        path:'reyting/qs/qs'
     },
     {
         id:2,
         name:'THE Ranking',
-        path:'/the'
+        path:'reyting/the/the'
     },
     {
         id:3,
         name:'Milliy reyting',
-        path:'/milliy'
+        path:'reyting/milliy/milliy'
     },
 ]
 

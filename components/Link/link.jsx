@@ -7,7 +7,7 @@ import styles from './../../styles/link.module.scss'
 const MyLink = ({path,title,icon}) => {
     return (
         <Link className={styles.Link} href={`${path}`} >
-            <Image className={styles.Link__img} src={icon} alt='icon' />
+           { icon ? <Image className={styles.Link__img} src={icon} alt='icon' /> : '' }
             <p className={styles.Link__title}>{title}</p>
         </Link>
     );

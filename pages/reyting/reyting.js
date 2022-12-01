@@ -1,15 +1,33 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { items3 } from '../../components/data/items';
+
+import Boss from '../../components/boss/boss';
+
+import strel from './../../public/assets/images/strel.png'
+import adham from './../../public/assets/images/adhamjon.png'
+
 const Reyting = () => {
     return (
-        <div className='flex flex-col w-full my-20'>
-            <h2 className='text-3xl  ml-10'>{items3[0]}</h2>
-           {
+        <div className='flex flex-wrap w-full my-20 justify-around'>
+            <h2 className='text-3xl w-full text-center  ml-10 my-5'>{items3[0]}</h2>
+          <div className='w-96'>
+          {
             items3?.map((el,index) =>{
-              return <Link key={index} className='w-96 ml-10 my-1 hover:text-grey hover:decoration-blue' href={`${el.path}`} >{el.name}</Link>
+            if(typeof el ==='object'){
+                return <Link key={index} className='bg-white shadow-lg text-blue  hover:scale-105 w-full p-1 rounded-md m-2 flex items-center justify-between ' href='/'>
+                {el.id}. {el.name}
+                 <Image className='w-8 h-8 rounded-full' src={strel} alt='icon'/>
+             </Link>
+            }
             })
            } 
+          </div>
+          <Boss
+           image={adham}
+            text={"Xalqaro reyting bo'limi boshlig'i Mahkamov Adhamjon"}
+             />
         </div>
     );
 }
