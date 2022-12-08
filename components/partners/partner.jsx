@@ -31,7 +31,7 @@ const Partner = () => {
                navigation={true}
                grabCursor={true}
                loop = {true}
-               className={'my-10 flex items-center'}
+               className={' w-11/12'}
                >
                 <SwiperSlide>
                 <div className='w-64 h-64 py-5 bg-white flex flex-col items-center shadow shadow-blue rounded-xl mt-6 hover:scale-105 hover:animate-pulse'>

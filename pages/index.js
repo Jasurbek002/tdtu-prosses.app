@@ -11,6 +11,7 @@ import styles from '../styles/Home.module.css'
 import HeroWidget from '../components/widjed/widjed'
 
 import { context } from '../components/context/context'
+import Search from '../components/search/search'
 
 export default function Home() {
 
@@ -37,6 +38,7 @@ export default function Home() {
       </Head>
       <main>
         <Loading state={loading}/>
+        {/* <Search state={null} /> */}
         <div className={'flex w-full justify-center'}>
         <Carusel  />
         </div>

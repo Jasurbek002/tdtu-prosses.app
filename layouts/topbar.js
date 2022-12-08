@@ -3,7 +3,7 @@ import Link from 'next/link';
 import styles from './../styles/topbar.module.scss'
 
 import logo from '../public/assets/images/LOGO.png'
-import searchicon from '../public/assets/images/search.jpg'
+import searchicon from '../public/assets/svg/search.svg'
 import { useState } from 'react';
 const Topbar = () => {
     const [search , setSearch] = useState(false)
@@ -15,11 +15,11 @@ const Topbar = () => {
                 </Link>
                 <h2 className={styles.Topbar__title}>
                     Islom Karimov nomidagi toshkent davlat texnika universitetining
-                    ilmiy-tadqiqot izlanishlarini yoritib boruvchi sayt
+                    Ilmiy bo'limi
                 </h2>
-                <buttom className='w-10 h-10'>
+                <buttom className='w-35 h-35'>
                     <Image
-                    //  className={'w-10 h-10 hover:animate-spin'}
+                     style={{width:'35px',cursor:'pointer'}}
                       src={searchicon}
                        alt='search icon'/>
                 </buttom>

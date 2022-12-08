@@ -3,22 +3,22 @@ export let items1 = [
     {
         id:1,
         name:'Mustaqil izlanuvchilar',
-        path:'doctarant/mustaqil'
+        path:'/doctarant/mustaqil'
     },
     {
         id:2,
         name:'Tayanch doktorant',
-        path:'doctarant/tayanch'
+        path:'/doctarant/tayanch'
     },
     {
         id:3,
         name:'Stajor tadqiqotchi',
-        path:'doctarant/stajor'
+        path:'/doctarant/stajor'
     },
     {
         id:3,
         name:'DSc doktorant',
-        path:'doctarant/ds'
+        path:'/doctarant/ds'
     }
 ]
 
@@ -57,17 +57,17 @@ export let items3 = [
     {
         id:1,
         name:'QS Ranking',
-        path:'reyting/qs/qs'
+        path:'/reyting/qs/qs'
     },
     {
         id:2,
         name:'THE Ranking',
-        path:'reyting/the/the'
+        path:'/reyting/the/the'
     },
     {
         id:3,
         name:'Milliy reyting',
-        path:'reyting/milliy/milliy'
+        path:'/reyting/milliy/milliy'
     },
 ]
 
@@ -75,22 +75,28 @@ export let items4 = [
     "Iqtidorli talabalar bilan ishlash bo'limi",
     {
         id:1,
-        name:'Nomdor stipendiyalar, tanlovlar',
+        name:'Stipendiyalar',
         path:'/nomdor'
     },
     {
         id:2,
-        name:'prezident',
+        name:"To'garaklar",
         path:'/prezident'
     },
+   
     {
         id:3,
-        name:'Prezident stipendiyalar',
-        path:'/prezident'
+        name:'Olimpiadalar',
+        path:'/olimpiada'
     },
     {
-        id:4,
-        name:'Olimpiadalar',
+        id:5,
+        name:'Tanlovlar',
+        path:'/olimpiada'
+    },
+    {
+        id:6,
+        name:'Talabalar Forum',
         path:'/olimpiada'
     },
 ]
@@ -121,6 +127,7 @@ export let items5 = [
 ]
 
 export let items6 = [
+    "Ilimy-jurnallar va Ilmiy ishlanmalar bo'limi",
     {
         id:1,
         name:"Technical science and innovation",

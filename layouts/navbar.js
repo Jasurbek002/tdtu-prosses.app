@@ -70,7 +70,7 @@ const Navbar = () => {
                 <li className={styles.Navbar__nav__item}>
                     <Link className={styles.Navbar__nav__item__link} href='/jurnal/jurnal' >Ilmiy jurnallar</Link>
                     <div className={styles.Navbar__nav__item__menu}>
-                     {/* <p>{items6[0]}</p> */}
+                     <p>{items6[0]}</p>
                     {
                         items6?.map((el)=>{
                             return <Link key={el.id} className={styles.Navbar__nav__item__menu__links}   href={`${el.path}`} >{el.name}</Link>

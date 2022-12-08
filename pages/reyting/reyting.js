@@ -26,7 +26,7 @@ const Reyting = () => {
           </div>
           <Boss
            image={adham}
-            text={"Xalqaro reyting bo'limi boshlig'i Mahkamov Adhamjon"}
+            text={"Adham Mahkamov Rustamovich Islom Karimov nomidagi Toshkent davlat texnika universiteti Xalqaro reyting bo'limi boshlig'i"}
              />
         </div>
     );
