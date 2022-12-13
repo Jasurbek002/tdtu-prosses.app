@@ -5,9 +5,18 @@ import instagram from '../public/assets/images/instagram.svg'
 import youtube from '../public/assets/images/youtube.svg'
 import Link from 'next/link'
 
+import Aos from 'aos'
+import { useEffect } from 'react'
+
 const Footer = () => {
+    useEffect(() =>{
+        Aos.init()
+    })
     return (
-        <div className={styles.Footer}>
+        <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        className={styles.Footer}>
 
            <ul className={styles.Footer__nav}>
                 <li className={styles.Footer__nav__item}>

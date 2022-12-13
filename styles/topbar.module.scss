@@ -22,14 +22,31 @@
         font-weight: 900;
         font-family:'SourceSansPro';
     }
-    &__lang{
-        width: 50px;
-        height: 40px;
-        color:#1b6b50;
-        font-size: 25px;
-        border: none;
-        outline: none;
+    &__btngroup{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        background-color: #1b6b50;
+        border-radius: 10px;
+        max-width: 200px;
+        justify-content: space-between;
+        width: 200px;
+        &__lang{
+            background-color: transparent;
+            width: 50px;
+            height: 40px;
+            color:#1b6b50;
+            font-size: 25px;
+            border: none;
+            outline: none;
+            color: white;
+            cursor: pointer;
+            &:optional{
+                background-color: #1b6b50;
+            }
+        }
     }
+    
 }
 
 

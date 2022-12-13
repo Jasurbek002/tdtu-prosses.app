@@ -27,8 +27,8 @@
   border-radius: 20px;
   margin: 100px auto;
   width: 90%;
-  background: rgb(241,48,179);
-  background: linear-gradient(90deg, rgba(241,48,179,0.7906512946975666) 0%, rgba(69,36,238,0.7122199221485469) 100%);
+  background: rgb(37,144,235);
+  background: linear-gradient(90deg, rgba(37,144,235,1) 28%, rgba(27,107,80,1) 68%);
 }
 
 

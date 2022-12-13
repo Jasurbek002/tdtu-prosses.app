@@ -1,4 +1,6 @@
 import { Link } from "@mui/material";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Image from "next/image";
 import mexanika from '../../public/assets/svg/mexanika.svg'
 import mashina from '../../public/assets/svg/mashina.svg'
@@ -11,9 +13,12 @@ import energetc from '../../public/assets/svg/energetc.svg'
 
 
 import styles from './../../styles/fuculy.module.scss'
+import { useEffect } from "react";
 
 const Fuculy = () => {
-
+useEffect(() =>{
+  Aos.init()
+})
   const fuculty = [
     {id:1,name:'Mexanika fakulteti',img:mexanika},
     {id:2,name:'Elelktr energetika fakulteti',img:energetc},
@@ -26,7 +31,10 @@ const Fuculy = () => {
   ]
 
     return (
-        <div className={styles.Fuculy}>
+        <div className={styles.Fuculy} 
+        data-aos="flip-left"
+         data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"> 
            <div className='flex w-full items-center justify-evenly my-20'>
                 <span className="w-96 h-1 bg-blue"></span>
                 <h1 className='text-grey text-2xl'>Fakultetlar</h1>
@@ -35,7 +43,9 @@ const Fuculy = () => {
          {
              fuculty.map((el,index) =>{
               return (
-                <Link href="/"
+                <Link
+                data-aos="fade-down-right"
+                href="/"
                 id="Link"
                  key={index}
                  className={

@@ -12,25 +12,52 @@ import ziyo from './../../public/assets/images/ziyo.jpg'
 import govuz from './../../public/assets/images/govuz.png'
 import gerb from './../../public/assets/images/gerb.png'
 
+import Aos  from "aos";
+import { useEffect } from "react";
 
 
 
 
 
 const Partner = () => {
+    useEffect(() =>{
+        Aos.init()
+    })
     return (
         <div className='w-full flex flex-wrap items-center justify-evenly py-30 my-10 '>
-             <div className='flex w-full items-center justify-evenly my-20 '>
+             <div
+             data-aos="fade-right"
+             className='flex w-full items-center justify-evenly my-20 '>
                 <span className="w-96 h-1 bg-grey"></span>
                 <h1 className='text-blue text-2xl'>Hamkorlar</h1>
                 <span className="w-96 h-1 bg-grey"></span>
                 </div>
             <Swiper
+               data-aos="zoom-in-up"
                slidesPerView={4}
                modules={[Navigation,Thumbs]}
                navigation={true}
                grabCursor={true}
                loop = {true}
+               spaceBetween ={50}
+               breakpoints={{
+                481:{
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                640: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 3,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 50,
+                },
+              }}
                className={' w-11/12'}
                >
                 <SwiperSlide>

@@ -1,9 +1,12 @@
 
 import { useEffect } from 'react';
+import Aos from 'aos';
 
 function HeroWidget() {
 
     useEffect(() => {
+
+        Aos.init()
 
         const script = document.createElement('script');
         script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js'
@@ -30,7 +33,10 @@ function HeroWidget() {
 
     return (
         <>
-            <div id="myContainer">
+            <div
+        //    data-aos="flip-up"
+             data-aos-duration="2000"
+            id="myContainer">
                 <div className="tradingview-widget-container">
                     <div className="tradingview-widget-container__widget">
 
