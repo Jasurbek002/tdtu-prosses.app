@@ -69,6 +69,11 @@ export let items3 = [
         name:'Milliy reyting',
         path:'/reyting/milliy/milliy'
     },
+    {
+        id:4,
+        name:'Greenmetric',
+        path:'/reyting/green/green'
+    }
 ]
 
 export let items4 = [
