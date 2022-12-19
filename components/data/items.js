@@ -81,18 +81,18 @@ export let items4 = [
     {
         id:1,
         name:'Stipendiyalar',
-        path:'/nomdor'
+        path:'/talaba/scholarship/scholarship'
     },
     {
         id:2,
         name:"To'garaklar",
-        path:'/prezident'
+        path:'/talaba/circles/circles'
     },
    
     {
         id:3,
         name:'Olimpiadalar',
-        path:'/olimpiada'
+        path:'/talaba/olimp/olimp'
     },
     {
         id:5,
@@ -111,7 +111,7 @@ export let items5 = [
     {
         id:1,
         name:"Xo'jalik shartnomalar",
-        path:'/xojalik',
+        path:'/tijorat/economy/economy',
     },
     {
         id:2,

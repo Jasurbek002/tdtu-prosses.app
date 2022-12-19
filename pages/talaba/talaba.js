@@ -4,7 +4,7 @@ import { items4 } from '../../components/data/items';
 import Boss from '../../components/boss/boss';
 import Image from 'next/image';
 import strel from './../../public/assets/images/strel.png'
-import adham from './../../public/assets/images/adhamjon.png'
+import qobul from './../../public/assets/images/qobul.jpg'
 const Talaba = () => {
     return (
       <div className='flex flex-wrap w-full my-20 justify-around'>
@@ -22,8 +22,8 @@ const Talaba = () => {
      } 
     </div>
     <Boss
-     image={adham}
-      text={"Xalqaro reyting bo'limi boshlig'i Mahkamov Adhamjon"}
+     image={qobul}
+      text={"Muxiddinov Qobiljon Akmal o'g'li Iqtidorli talabalarning ilmiy-tadqiqot faoliyatini tashkil etish boʼlimi boshlig'i"}
        />
   </div>
     );
