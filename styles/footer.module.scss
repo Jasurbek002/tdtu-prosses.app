@@ -13,10 +13,21 @@
             margin: 20px;
             a{
                 color: rgb(255, 255, 255);
+                
                 img{
                     margin-right: 20px;
+                    &:hover{
+                        scale: 1.2;  
+                    }
                 }
             }
+        
+        }
+        
+    }
+    ul li{
+        a:hover{
+             color: red;
         }
     }
     &__map{

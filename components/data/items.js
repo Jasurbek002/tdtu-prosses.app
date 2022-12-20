@@ -3,12 +3,12 @@ export let items1 = [
     {
         id:1,
         name:'Mustaqil izlanuvchilar',
-        path:'/doctarant/mustaqil'
+        path:'/doctarant/independent'
     },
     {
         id:2,
         name:'Tayanch doktorant',
-        path:'/doctarant/tayanch'
+        path:'/doctarant/support'
     },
     {
         id:3,
