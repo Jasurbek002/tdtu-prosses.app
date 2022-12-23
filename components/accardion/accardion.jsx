@@ -6,7 +6,7 @@ const Accardion = () => {
 
     const [btn,setBtn] = useState(false)
     return (
-        <div className='w-96 mb-2 rounded-xl'>
+        <div className='w-full mb-2 rounded-xl'>
             <div className='w-full rounded-xl flex h-16 border-2 border-grey justify-between px-2 items-center'>
                 <p className='text-blue text-xl'>
                 	3d modellash

@@ -121,7 +121,7 @@ export let items5 = [
     {
         id:3,
         name:"Spin-off korxonalar",
-        path:'/spinoff',
+        path:'/tijorat/spin',
     },
     {
         id:4,
@@ -136,26 +136,26 @@ export let items6 = [
     {
         id:1,
         name:"Technical science and innovation",
-        path:'/technical',
+        path:'/jurnal/technical',
     },
     {
         id:2,
         name:"Ta'lim tizimida ijtimoiy-gumanitar fanlar",
-        path:'/talim',
+        path:'/jurnal/education',
     },
     {
         id:3,
         name:"Energiya va resurs tejash muammolari",
-        path:'/energiya',
+        path:'/jurnal/eneegy',
     },
     {
         id:4,
         name:"Chemical technology control and management",
-        path:'/chemical',
+        path:'/jurnal/chemical',
     },
     {
         id:5,
         name:"Konchilik mashinalari va texnologiyalari",
-        path:'/konchilik',
+        path:'/jurnal/konchilik',
     },
 ]
