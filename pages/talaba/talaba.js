@@ -5,6 +5,7 @@ import Boss from '../../components/boss/boss';
 import Image from 'next/image';
 import strel from './../../public/assets/images/strel.png'
 import qobul from './../../public/assets/images/qobul.jpg'
+import download from './../../public/assets/svg/download.svg'
 const Talaba = () => {
     return (
       <div className='flex flex-wrap w-full my-20 justify-around'>
@@ -20,6 +21,10 @@ const Talaba = () => {
       }
       })
      } 
+      <button className='ml-1 py-5 px-10 shadow-lg bg-white mt-5 flex items-center border-2 border-grenn text-grenn hover:border-blue'>
+            Bo'lim nizomi
+            <Image className='w-8 ml-2' src={download} alt='icon' />
+           </button>
     </div>
     <Boss
      image={qobul}

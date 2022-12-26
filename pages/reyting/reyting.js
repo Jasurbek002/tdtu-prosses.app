@@ -7,6 +7,7 @@ import Boss from '../../components/boss/boss';
 
 import strel from './../../public/assets/images/strel.png'
 import adham from './../../public/assets/images/adhamjon.png'
+import download from './../../public/assets/svg/download.svg'
 
 const Reyting = () => {
     return (
@@ -23,6 +24,10 @@ const Reyting = () => {
             }
             })
            } 
+           <button className='ml-1 py-5 px-10 shadow-lg bg-white mt-5 flex items-center border-2 border-grenn text-grenn hover:border-blue'>
+            Bo'lim nizomi
+            <Image className='w-8 ml-2' src={download} alt='icon' />
+           </button>
           </div>
           <Boss
            image={adham}

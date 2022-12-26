@@ -3,13 +3,15 @@ import styles from '../styles/navbar.module.scss'
 
 import {items1,items2,items3,items4,items5,items6} from '../components/data/items'
 
-const Navbar = () => {
+const Navbar = ({url}) => {
 
     return (
-        <div className={styles.Navbar}>
+        <div 
+        style={{display: url ? 'none' : 'flex'}}
+        className={styles.Navbar}>
               <ul className={styles.Navbar__nav}>
                 <li  className={styles.Navbar__nav__item}>
-                    <Link className={styles.Navbar__nav__item__link} href='/' >Home</Link>
+                    <Link className={styles.Navbar__nav__item__link} href='/' >Bosh sahifa</Link>
                 </li>
                 <li className={styles.Navbar__nav__item}>
                     <Link className={styles.Navbar__nav__item__link} href='/doctarant/doktarant' >Doktorantura</Link>

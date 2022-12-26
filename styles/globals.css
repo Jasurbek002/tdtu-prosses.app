@@ -6,8 +6,8 @@
   width: 150px;
   height: 200px;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.605);
-  @apply animate-pulse
+  background-color:transparent;
+  border: 1px solid white;
 }
 .spin:hover .info{
   display: flex;
@@ -20,15 +20,16 @@
   top: -30px;
   color: white;
   display: none;
+  border: 2px solid white;
 }
 
 
 .box{
-  border-radius: 20px;
   margin: 100px auto;
-  width: 90%;
-  background: rgb(37,144,235);
-  background: linear-gradient(90deg, rgba(37,144,235,1) 28%, rgba(27,107,80,1) 68%);
+  background-image: url('./../public/assets/images/statistic.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 100px 0;
 }
 
 
@@ -37,7 +38,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family:'';
+ 
  
   @apply bg-kokroq
 }
