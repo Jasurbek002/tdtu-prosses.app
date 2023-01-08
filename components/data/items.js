@@ -116,7 +116,7 @@ export let items5 = [
     {
         id:2,
         name:"Start-up loyixa",
-        path:'/startup',
+        path:'/tijorat/startup',
     },
     {
         id:3,
@@ -126,7 +126,7 @@ export let items5 = [
     {
         id:4,
         name:"Muommoli ishlanmalar royxati",
-        path:'/spinoff',
+        path:'/tijorat/problems',
     },
 
 ]

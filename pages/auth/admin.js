@@ -10,7 +10,7 @@ const Admin = () => {
     return (
         <>
          {
-           !token ? <Login /> : <AdminBar />
+           token ? <Login /> : <AdminBar />
         }
         </>
     );

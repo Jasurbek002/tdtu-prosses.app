@@ -35,7 +35,7 @@ const Score = ({fakul,students,teachers,forwork}) => {
         <div 
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
-            className="flex flex-col items-center  bg-white rounded-md  relative spin">
+            className="mb-5 flex flex-col items-center  bg-white rounded-md  relative spin">
                 <Image className="w-10 h-10 mb-5" src={stdents} alt='icon' />
                  <h1 className='text-white'>{students} +</h1>
                  <p className='info'>Bakalavrlar</p>
@@ -44,7 +44,7 @@ const Score = ({fakul,students,teachers,forwork}) => {
             <div
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
-            className="flex flex-col bg-white rounded-md items-center   relative spin">
+            className="mb-5 flex flex-col bg-white rounded-md items-center   relative spin">
                 <Image className="w-10 h-10 mb-5" src={stdent} alt='icon' />
                  <h1 className='text-white'>{fakul} +</h1>
                  <p className='info'>Magistrlar</p>
@@ -52,7 +52,7 @@ const Score = ({fakul,students,teachers,forwork}) => {
             <div
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
-            className="flex flex-col items-center  bg-white rounded-md  relative spin">
+            className="mb-5 flex flex-col items-center  bg-white rounded-md  relative spin">
                 <Image className="w-10 h-10 mb-5" src={teacher} alt='icon' />
                  <h1 className='text-white'>{teachers} +</h1>
                  <p className='info'>Professorlar</p>
@@ -60,7 +60,7 @@ const Score = ({fakul,students,teachers,forwork}) => {
             <div 
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
-            className="flex flex-col items-center  bg-white rounded-md  relative spin">
+            className="mb-5 flex flex-col items-center  bg-white rounded-md  relative spin">
                 <Image className="w-10 h-10 mb-5" src={partner} alt='icon' />
                  <h1 className='text-white'>{forwork} +</h1>
                  <p className='info'>Hamkorlar</p>
